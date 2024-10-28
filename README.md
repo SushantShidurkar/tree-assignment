@@ -113,6 +113,7 @@ npm run test
 
 | Command            | Description                                                              |
 |--------------------|--------------------------------------------------------------------------|
+| `npm run start`    |Runs both server and client simultaneously.                               |
 | `npm run dev`      | Runs the Vue client dev server separately                                |
 | `npm run server`   | Runs the Express server in production mode, serving files from `dist`    |
 | `npm run build`    | Builds the Vue client for production                                     |
