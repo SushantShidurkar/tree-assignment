@@ -52,7 +52,7 @@ tree-visualization
 #### Fast Mode
 In the root project directory, run:
    ```bash
-   npm run server
+   npm run start
    ```
 This runs the application and opens in browser automatically on [http://localhost:4000](http://localhost:4000).
 
