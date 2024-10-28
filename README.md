@@ -45,11 +45,16 @@ tree-visualization
 2. **Install dependencies** for both frontend and backend:
    ```bash
    npm install
-   cd client && npm install
-   cd ..
    ```
 
 ### Running the Application
+
+#### Fast Mode
+In the root project directory, run:
+   ```bash
+   npm run server
+   ```
+This runs the application and opens in browser automatically on [http://localhost:4000](http://localhost:4000).
 
 #### Development Mode
 
@@ -65,7 +70,7 @@ In development mode, the frontend and backend run separately to support hot-relo
 2. **Start the Server**:
    In the root project directory, run:
    ```bash
-   npm run start
+   npm run server
    ```
 
    This runs the Express server with ts-node on [http://localhost:3000](http://localhost:3000).
@@ -90,34 +95,33 @@ In production, you serve the frontend through the backend.
 2. **Start the Server in Production mode**:
    In the root project directory, run:
    ```bash
-   npm run start
+   npm run server
    ```
 
    The server will now serve the static frontend files from `client/dist` and will be available at [http://localhost:3000](http://localhost:3000).
 
 ### Testing
 
-To run tests for the API endpoints, use:
+To run tests , use:
 
 ```bash
 npm run test
 ```
 
-This uses Mocha, Chai, and Supertest to test the API functionality.
 
 ## Scripts
 
 | Command            | Description                                                              |
 |--------------------|--------------------------------------------------------------------------|
 | `npm run dev`      | Runs the Vue client dev server separately                                |
-| `npm run start`    | Runs the Express server in production mode, serving files from `dist`    |
+| `npm run server`   | Runs the Express server in production mode, serving files from `dist`    |
 | `npm run build`    | Builds the Vue client for production                                     |
-| `npm run test`     | Runs the test suite for the server API endpoints                         |
+| `npm run test`     | Runs the test suite                      |
 
 ## API Endpoints
 
 | Method | Endpoint          | Description                             |
-|--------|--------------------|-----------------------------------------|
+|--------|-------------------|-----------------------------------------|
 | GET    | `/api/data/:name` | Retrieves tree data based on file name  |
 
 ### Example Request
