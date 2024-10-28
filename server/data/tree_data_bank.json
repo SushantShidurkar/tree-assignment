@@ -1,0 +1,39 @@
+{
+    "data": [
+      {
+        "name": "Bank",
+        "description": "A major international bank",
+        "parent": ""
+      },
+      {
+        "name": "Retail Banking",
+        "description": "Handles services for individual customers, like savings accounts, loans, and credit cards",
+        "parent": "Bank"
+      },
+      {
+        "name": "Corporate Banking",
+        "description": "Provides banking services to large corporations, including loans and treasury services",
+        "parent": "Bank"
+      },
+      {
+        "name": "Investment Banking",
+        "description": "Offers services like mergers, acquisitions, and raising capital for businesses",
+        "parent": "Bank"
+      },
+      {
+        "name": "Personal Loans",
+        "description": "Manages personal loan products and customer interactions",
+        "parent": "Retail Banking"
+      },
+      {
+        "name": "Credit Cards",
+        "description": "Handles issuance and management of credit card services",
+        "parent": "Retail Banking"
+      },
+      {
+        "name": "Wealth Management",
+        "description": "Provides high-net-worth individuals with wealth planning and investment services",
+        "parent": "Corporate Banking"
+      }
+    ]
+  }

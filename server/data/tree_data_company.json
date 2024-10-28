@@ -1,0 +1,39 @@
+{
+    "data": [
+      {
+        "name": "Company",
+        "description": "A global technology company",
+        "parent": ""
+      },
+      {
+        "name": "Engineering",
+        "description": "Responsible for product development and innovation",
+        "parent": "Company"
+      },
+      {
+        "name": "Marketing",
+        "description": "Handles branding, communications, and advertising",
+        "parent": "Company"
+      },
+      {
+        "name": "Sales",
+        "description": "Manages customer acquisition and sales growth",
+        "parent": "Company"
+      },
+      {
+        "name": "Software Development",
+        "description": "Focuses on developing and maintaining software products",
+        "parent": "Engineering"
+      },
+      {
+        "name": "Quality Assurance",
+        "description": "Ensures product quality through rigorous testing",
+        "parent": "Engineering"
+      },
+      {
+        "name": "DevOps",
+        "description": "Handles infrastructure and deployment processes",
+        "parent": "Engineering"
+      }
+    ]
+  }
