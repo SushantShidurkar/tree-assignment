@@ -8,7 +8,7 @@ Application uses D3.js to visualize the data and show description of selected no
 - **Frontend**: Vue.js, D3.js for data visualization, Axios for HTTP requests
 - **Backend**: Node.js, Express.js for API endpoints
 - **Database**: JSON files (can be adapted to other storage)
-- **Testing**: Vitest for frontend Mocha, Chai, Supertest
+- **Testing**: Vitest 
 - **TypeScript**: Used in both frontend and backend for better type safety
 - **Other Tools**: ts-node, concurrently for running client and server simultaneously
 
